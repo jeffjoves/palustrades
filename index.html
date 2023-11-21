@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="jrl.ico" type="image/x-icon" style="border-radius:50%;">
+
+    <title>JRL KWARTA TRADING INC.</title>
+</head>
+<body>
+   <header>JRL KWARTA TRADING INC.</header>
+
+    <div class="main-container">
+        <div class="container"> 
+            <h1>Risk Calculator</h1>
+
+            <label >Take Profit Percentage</label>
+            <input type="text" class="underline" id="tp"><br>
+
+            <label id=>Stop Loss Percentage</label>
+            <input type="text" class="underline" id="sl"><br>
+
+            <label>Leverage</label>
+            <input type="text" class="underline" id="leverage"><br>
+
+            <label> Margin(USD)</label>
+            <input type="text" class="underline" id="margin"><br>
+
+            <button class="calculate" id="button">Calculate</button>
+            
+             
+            <div id="resultLabel"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

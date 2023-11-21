@@ -1,0 +1,92 @@
+
+    body {
+    background-image: url('wall.jpg');
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:2.2em;
+    color: #fff;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-weight:bold;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    width: 550px;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    text-align: center;
+}
+
+/* Style the underlined textboxes */
+input[type="text"].underline {
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    padding: 5px; /* Adjust as needed */
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    width: 70%;
+    background-color: transparent; /* Make background transparent */
+    text-align:center;
+    color: #fff; /* Text color */
+}
+
+/* Add some spacing for labels and underlined inputs */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Style the button */
+button.calculate {
+    margin-top: 20px;
+    padding: 15px;
+    background-color:black;
+    color: #fff;
+    font-size:1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom:20px;
+}
+
+#resultLabel{
+
+    font-size:2em;
+    
+}
+
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        width: 100%; /* Full width for smaller screens */
+        max-width: none; /* No maximum width for smaller screens */
+    }
+}   
